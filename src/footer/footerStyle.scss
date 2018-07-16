@@ -1,0 +1,26 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+  border-top: 1px dotted;
+}
+
+.footer-box-one{
+  width: 50%;
+}
+
+.footer-box-one span{
+  margin: 10px;
+}
+
+.footer-box-two{
+  width: 50%;
+  text-align: right;
+}
+
+.footer-box-two span{
+  margin: 10px;
+}

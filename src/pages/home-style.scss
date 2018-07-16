@@ -1,0 +1,51 @@
+@import '../styles/variables';
+
+.box-text{
+  display: flex;
+  justify-content: space-around;
+  width: 89%;
+  padding: 22px;
+  margin: 5% auto;
+  align-items: center;
+  background: #EBEBEB;
+}
+
+.text-box-left{
+  width: 20%;
+}
+
+.text-box-left p{
+  font-size: 22px;
+  line-height: 26px;
+  color: rgb(51,51,51);
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+#text-one{
+  font-size: 37px;
+  line-height: 42px;
+  color: rgb(51,51,51);
+  font-weight: bold;
+}
+
+.text-box-right{
+  width: 80%;
+}
+
+.text-box-right p{
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: rgb(51,51,51);
+  font-weight: 300;
+}
+
+.btn-text-down{
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51,51,51);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}

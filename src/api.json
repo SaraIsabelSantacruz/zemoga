@@ -1,0 +1,56 @@
+{
+  "votes":[
+    {
+      "id": "1",
+      "image": "./images/kanye.png",
+      "imagex":"28%",
+      "imagey":"55%",
+      "name": "Kanye West",
+      "workTime": "1 month ago",
+      "work": "Entertainment",
+      "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "buttonState":true,
+      "activeUp":false,
+      "activeDown":false
+    },
+    {
+      "id": "2",
+      "image": "./images/kanye.png",
+      "imagex":"29%",
+      "imagey":"55%",
+      "name": "Mark Zuckerberg",
+      "workTime": "1 month ago",
+      "work": "Business",
+      "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "buttonState":true,
+      "activeUp":false,
+      "activeDown":false
+    },
+    {
+      "id": "3",
+      "image": "./images/cristina.png",
+      "imagex":"54%",
+      "imagey":"7%",
+      "name": "Cristina Fernández",
+      "workTime": "1 month ago",
+      "work": "Politics",
+      "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "buttonState":true,
+      "activeUp":false,
+      "activeDown":false
+    },
+    {
+      "id": "4",
+      "image": "./images/malala.png",
+      "imagex":"75%",
+      "imagey":"73%",
+      "name": "Malala Yousafzai",
+      "workTime": "1 month ago",
+      "work": "Entertainment",
+      "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "buttonState":true,
+      "activeUp":false,
+      "activeDown":false
+    }
+  ]
+}

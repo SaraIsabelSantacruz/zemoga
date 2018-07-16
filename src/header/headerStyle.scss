@@ -1,0 +1,234 @@
+// *{
+//   font-family: 'Lato', sans-serif;
+// }
+@import '../styles/variables';
+
+.header{
+  background-image: url("../../images/popeFrancisco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 725px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.navbar-default{
+  position: absolute;
+  background-image: linear-gradient(0deg, rgba(51,51,51,0) 0%, rgba(51,51,51,0.5294117647058824) 100%);
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+
+.navbar-header{
+  margin: 1.7% 4%;
+}
+
+.navbar-default .navbarTitle{
+  font-size: 32px;
+  line-height: 38px;
+  color: rgb(255,255,255);
+  height: auto;
+}
+
+.navbar-right{
+  margin: 4% 2%;
+}
+
+.navbar-default .main-menu{
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255,255,255);
+  font-weight: 300;
+  padding: 20px;
+}
+
+.box-container{
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  width: 40%;
+  background: #5c5c5c96;
+  height: 440px;
+}
+
+.text-container{
+  padding: 35px 35px 17px 35px;
+}
+
+.text-container h1{
+  font-size: 60px;
+  line-height: 60px;
+  color: rgb(255,255,255);
+  margin-top: 0;
+}
+
+.text-container .question-text{
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.text-container .cuestion-veredict{
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+.text-container .cont-text{
+  width: 399px;
+  font-size: 21px;
+  line-height: 24px;
+  color: rgb(255,255,255);
+  font-weight: 300;
+  margin-top: 10%;
+}
+
+.icons-container{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.icons-text{
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  background: $color-votesUp;
+}
+
+.icons-text:last-child{
+  background: #FAB140d1;
+}
+
+.filter-blur{
+  position: absolute;
+  top: 24%;
+  left: 10%;
+  width: 40%;
+  background: #80808096;
+  height: 400px;
+  filter: blur(10px);
+  background-image: url("../../images/layer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-closing{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.box-one{
+  width: 40%;
+  padding: 14.5px;
+  background: #B0AAA0;
+}
+
+.box-one::after{
+  content: "";
+  width: 0;
+  left: 40%;
+  position: absolute;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 8px solid #b0aa9f;
+}
+
+.box-one p{
+  float: right;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgb(255,255,255);
+  margin-bottom: 0;
+}
+
+.box-two{
+  width: 60%;
+  background: #F2F2F2;
+}
+
+.box-two p{
+  font-size: 37px;
+  line-height: 50px;
+  color: rgb(70,70,70);
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.box-two span{
+  margin-right: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .header{
+    background-position: center;
+  }
+
+  .navbar-collapse.in{
+    background-image: linear-gradient(0deg, rgba(51, 51, 51, 0.36) 0%, rgba(51, 51, 51, 0) 100%);
+  }
+
+  .navbar-default .main-menu{
+    padding: 11px;
+  }
+
+  .box-container{
+    left: 25px;
+    width: 80%;
+    height: 393px;
+  }
+
+  .text-container {
+    padding: 19px 19px 10px 20px;
+  }
+
+  .text-container h1{
+    font-size: 30px;
+  }
+
+  .text-container .cont-text{
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .icons-text{
+    padding: 0;
+  }
+
+  .text-container .cuestion-veredict{
+    margin-top: 6%;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .box-container{
+    width: 60%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .box-container{
+    width: 60%;
+  }
+}
+@media (min-width: 1300px) {
+}
